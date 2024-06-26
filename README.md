@@ -1,4 +1,5 @@
 # Adversarial-AI-Defense
+# A project using python that uses machine learning to defend against Adversarial AI threats. 
 
 ## Setup
 
