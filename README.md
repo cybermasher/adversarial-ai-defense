@@ -1,5 +1,5 @@
 # Adversarial-AI-Defense
-### A project written in python using venv, tensorflow, that uses machine learning to defend against Adversarial AI threats. 
+### A project written in python using venv, tensorflow, numpy, pandas, scikit-learn, and matplotlib that incorporates machine learning to defend against Adversarial AI threats. 
 
 ## Setup
 
