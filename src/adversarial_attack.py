@@ -15,7 +15,7 @@ def create_adversarial_pattern(model, image, label):
 
 def generate_adversarial_examples():
     (x_train, y_train), (x_test, y_test) = load_mnist_data()
-    model = tf.keras.models.load_model('models/my_model.keras')
+    model = tf.keras.models.load_model('models/mnist_model_optuna.h5')
 
     x_test = x_test[:100]
     y_test = y_test[:100]
