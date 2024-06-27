@@ -1,24 +1,54 @@
 # src/train_model.py
 
 import tensorflow as tf
+import optuna
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Flatten, Dense, Dropout
+from tensorflow.keras.optimizers import Adam, RMSprop
 from data_loader import load_mnist_data
 
-def build_model():
-    model = tf.keras.models.Sequential([
-        tf.keras.layers.Flatten(input_shape=(28, 28)),
-        tf.keras.layers.Dense(128, activation='relu'),
-        tf.keras.layers.Dropout(0.2),
-        tf.keras.layers.Dense(10, activation='softmax')
-    ])
-    model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+def build_model(trial):
+    model = Sequential()
+    model.add(Flatten(input_shape=(28, 28)))
+    model.add(Dense(trial.suggest_int('units', 32, 512), activation='relu'))
+    model.add(Dropout(trial.suggest_float('dropout', 0.2, 0.5)))
+    model.add(Dense(10, activation='softmax'))
+
+    optimizer_options = {'adam': Adam, 'rmsprop': RMSprop}
+    optimizer_name = trial.suggest_categorical('optimizer', ['adam', 'rmsprop'])
+    optimizer = optimizer_options[optimizer_name]()
+
+    model.compile(optimizer=optimizer, loss='sparse_categorical_crossentropy', metrics=['accuracy'])
     return model
 
-def train_model():
+def objective(trial):
     (x_train, y_train), (x_test, y_test) = load_mnist_data()
-    model = build_model()
-    model.fit(x_train, y_train, epochs=5)
-    model.evaluate(x_test, y_test)
-    model.save('models/mnist_model.h5')
+
+    model = build_model(trial)
+
+    history = model.fit(x_train, y_train, validation_data=(x_test, y_test), epochs=5, batch_size=32, verbose=0)
+
+    accuracy = history.history['val_accuracy'][-1]
+    return accuracy
+
+def train_with_optuna():
+    study = optuna.create_study(direction='maximize')
+    study.optimize(objective, n_trials=50)
+
+    print('Number of finished trials:', len(study.trials))
+    print('Best trial:')
+    trial = study.best_trial
+
+    print('  Value:', trial.value)
+    print('  Params:')
+    for key, value in trial.params.items():
+        print('    {}: {}'.format(key, value))
+
+    best_model = build_model(trial)
+    (x_train, y_train), (x_test, y_test) = load_mnist_data()
+    best_model.fit(x_train, y_train, epochs=5, verbose=1)
+    best_model.save('models/my_models.keras')
 
 if __name__ == '__main__':
-    train_model()
+    train_with_optuna()
