@@ -1,7 +1,7 @@
 
 <div align="center">
 
-  <img src="assets/logo.png" alt="logo" width="200" height="auto" />
+  <img src="assets/cyber-banner-image.png" alt="adversarial-ai-banner-image" width="1280" height="auto" />
   <h1>Adversarial-AI-Defense</h1>
   
   <p>
