@@ -231,16 +231,13 @@ For Adversarial model training run:
   <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
 </a>
 
-
-Contributions are always welcome!
-
-See [Contributions](https://github.com/cybermasher/adversarial-ai-defense/contributing.md) to learn how you can add your expertise to the project.
+Visit our [contributions](https://github.com/cybermasher/adversarial-ai-defense/contributing.md) page to learn how you can add your expertise to this amazing bleeding edge project!
 
 
 <!-- Code of Conduct -->
-### :scroll: Code of Conduct
+## :scroll: Code of Conduct
 
-Please read the [code of Conductt](https://github.com/cybermasher/adversarial-ai-defense/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://github.com/cybermasher/adversarial-ai-defense/CODE_OF_CONDUCT.md)
 
 <!-- FAQ -->
 ## :grey_question: FAQ
