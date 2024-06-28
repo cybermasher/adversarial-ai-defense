@@ -5,7 +5,7 @@
   <h1>Adversarial-AI-Defense</h1>
   
   <p>
-    A project written in Python and optimized with Optuna using venv, tensorflow, numpy, pandas, scikit-learn, and matplotlib that uses deep machine learning to defend against Adversarial AI threats. 
+    A project underdevelopment (pre-alpha) written in Python and optimized with optuna using venv, tensorflow, numpy, pandas, scikit-learn, and matplotlib that uses deep machine learning to defend against potential adversarial AI threats. 
   </p>
   
   
@@ -237,8 +237,13 @@ For Adversarial model training run:
 <!-- Roadmap -->
 ## :compass: Roadmap
 
-* [x] Todo 1
-* [ ] Todo 2
+* [x] Launch alpha version
+* [ ] Test and bug fix
+* [ ] Gather feedback and feature requests
+* [ ] Modify and retrain model algorithms
+* [ ] Launch beta version
+* [ ] Test, Bug fix, and patch
+* [ ]   
 
 
 <!-- Contributing -->
@@ -251,13 +256,13 @@ For Adversarial model training run:
 
 Contributions are always welcome!
 
-See [Code of Conduct](https://github.com/cybermasher/adversarial-ai-defense/contributing.md) to learn how you can add your expertise to the project.
+See [Contributions](https://github.com/cybermasher/adversarial-ai-defense/contributing.md) to learn how you can add your expertise to the project.
 
 
 <!-- Code of Conduct -->
 ### :scroll: Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/cybermasher/adversarial-ai-defense/CODE_OF_CONDUCT.md)
+Please read the [code of Conductt](https://github.com/cybermasher/adversarial-ai-defense/CODE_OF_CONDUCT.md)
 
 <!-- FAQ -->
 ## :grey_question: FAQ
@@ -279,8 +284,11 @@ Distributed under the GPL-3.0 license. See LICENSE.txt for more information.
 
 <!-- Contact -->
 ## :handshake: Contact
-
-Your Name - [@dankpeace](https://twitter.com/dankpeace) - dschmidt2020[at]gmail[dot]com
+<a href="https://github.com/cybermasher/adversarial-ai-defense">
+  <img src="images/cybermasher.jpg" alt="cybermasher avatar" width="125" height="125" />
+</a>
+<br>
+Dustin Schmidt - [@dankpeace](https://twitter.com/dankpeace) - dschmidt2020[at]gmail[dot]com
 
 Project Link: [https://github.com/cybermasher/adversarial-ai-defense](https://github.com/cybermasher/adversarial-ai-defense)
 
