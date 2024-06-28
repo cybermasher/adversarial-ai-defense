@@ -32,9 +32,9 @@
 </p>
    
 <h4>
-    <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo</a>
+    <a href="https://github.com/cybermasher/adversarial-ai-defense">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
+    <a href="https://github.com/cybermasher/adversarial-ai-defense">Documentation</a>
   <span> · </span>
     <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Report Bug</a>
   <span> · </span>
@@ -188,13 +188,13 @@ To run tests, run the following command
 Clone the project
 
 ```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
+  git clone https://github.com/cybermasher/adversarial-ai-defense.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd adversarial-ai-defense
 ```
 
 Install dependencies
