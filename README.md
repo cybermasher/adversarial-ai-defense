@@ -197,41 +197,49 @@ Go to the project directory
   cd adversarial-ai-defense
 ```
 
-Install dependencies
+Setup Virtual Environment Using Venv
 
 ```bash
-  yarn install
+  python3 -m venv venv
+  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
 ```
 
-Start the server
+Install Required Libraries
 
 ```bash
-  yarn start
+ pip install numpy pandas scikit-learn tensorflow matplotlib optuna
+
 ```
 
-
-<!-- Deployment -->
-### :triangular_flag_on_post: Deployment
-
-To deploy this project run
+Create Project Structure
 
 ```bash
-  yarn deploy
-```
+mkdir data models notebooks src
+touch README.md requirements.txt .gitignore
 
+```
 
 <!-- Usage -->
-## :eyes: Usage
+### :eyes: Usage
 
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
+To train the model run:
 
+```bash
+  python src/train_model.py
 
-```javascript
-import Component from 'my-project'
+```
+To generate adversarial examples run:
 
-function App() {
-  return <Component />
-}
+```bash
+  python src/adversarial_attack.py
+
+```
+For Adversarial model training run:
+
+```bash
+  python src/defense_mechanism.py
+
 ```
 
 <!-- Roadmap -->
