@@ -214,7 +214,7 @@ For Adversarial model training run:
 ```
 
 <!-- Roadmap -->
-## :world_map: Roadmap
+## :blue_car: Roadmap
 
 * [x] Launch alpha version
 * [ ] Test and bug fix
