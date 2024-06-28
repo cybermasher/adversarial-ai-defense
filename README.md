@@ -5,7 +5,7 @@
   <h1>Adversarial-AI-Defense</h1>
   
   <p>
-    A project written in python and optimized with Optuna using venv, tensorflow, numpy, pandas, scikit-learn, and matplotlib that uses deep machine learning to defend against Adversarial AI threats. 
+    A project written in Python and optimized with Optuna using venv, tensorflow, numpy, pandas, scikit-learn, and matplotlib that uses deep machine learning to defend against Adversarial AI threats. 
   </p>
   
   
