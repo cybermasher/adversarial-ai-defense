@@ -288,9 +288,9 @@ Project Link: [https://github.com/cybermasher/adversarial-ai-defense](https://gi
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
 
-Use this section to mention useful resources and libraries that you have used in your projects.
-
- - [Shields.io](https://shields.io/)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
- - [Readme Template](https://github.com/othneildrew/Best-README-Template)
+ - [NumPy](https://numpy.org/)
+ - [Pandas](https://pandas.pydata.org/)
+ - [Scikit-Learn](https://scikit-learn.org/stable/)
+ - [TensorFlow](https://www.tensorflow.org/)
+ - [Matplotlib](https://matplotlib.org/)
+ - [Optuna](https://optuna.org/)
