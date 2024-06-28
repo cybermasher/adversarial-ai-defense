@@ -222,7 +222,6 @@ For Adversarial model training run:
 * [ ] Modify and retrain model algorithms
 * [ ] Launch beta version
 * [ ] Test, Bug fix, and patch
-* [ ]   
 
 
 <!-- Contributing -->
