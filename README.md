@@ -73,7 +73,7 @@
 <!-- About the Project -->
 ## :star2: About the Project
 
-I wanted to build my own learning model that would help defend against adversarial AI threats and attacks. Piecing together this project with the help of my own coding expierence, Chat GBT, and the awesome programming community, my goal is to create an open source program that will prevent AI chatbots, and other applications from meliciously breaching an organization's defenses.   
+I wanted to build my own learning model that would help defend against adversarial AI threats and attacks. Piecing together this project with the help of my own coding expierence, Chat GPT, and the awesome programming community, my goal is to create an open source program that will prevent AI chatbots, and other applications from meliciously breaching an organization's defenses.   
 
 <!-- Screenshots -->
 ### :camera: Screenshots
