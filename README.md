@@ -148,6 +148,7 @@ I wanted to build my own learning model that would help defend against Adversari
 | Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
 
 
+<!--
 <!-- Env Variables -->
 ### :key: Environment Variables
 
@@ -156,7 +157,7 @@ To run this project, you will need to add the following environment variables to
 `API_KEY`
 
 `ANOTHER_API_KEY`
-
+-->
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
 
@@ -173,15 +174,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
    
-<!-- Running Tests -->
-### :test_tube: Running Tests
-
-To run tests, run the following command
-
-```bash
-  yarn test test
-```
-
 <!-- Run Locally -->
 ### :running: Run Locally
 
@@ -259,13 +251,13 @@ For Adversarial model training run:
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+See [Code of Conduct](https://github.com/cybermasher/adversarial-ai-defense/contributing.md) to learn how you can add your expertise to the project.
 
 
 <!-- Code of Conduct -->
 ### :scroll: Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://github.com/cybermasher/adversarial-ai-defense/CODE_OF_CONDUCT.md)
 
 <!-- FAQ -->
 ## :grey_question: FAQ
@@ -288,7 +280,7 @@ Distributed under the GPL-3.0 license. See LICENSE.txt for more information.
 <!-- Contact -->
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - dschmidt2020[at]gmail[dot]com
+Your Name - [@dankpeace](https://twitter.com/dankpeace) - dschmidt2020[at]gmail[dot]com
 
 Project Link: [https://github.com/cybermasher/adversarial-ai-defense](https://github.com/cybermasher/adversarial-ai-defense)
 
