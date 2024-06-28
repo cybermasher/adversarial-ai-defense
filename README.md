@@ -75,7 +75,7 @@
 
 I wanted to build my own learning model that would help defend against adversarial AI threats and attacks. Piecing together this project with the help of my own coding expierence, Chat GPT, and the awesome programming community, my goal is to create an open source program that will prevent AI chatbots, and other applications from meliciously breaching an organization's defenses.   
 
-<!-- Screenshots -->
+<!-- Screenshots 
 ### :camera: Screenshots
 
 <div align="center"> 
@@ -83,7 +83,7 @@ I wanted to build my own learning model that would help defend against adversari
 </div>
 
 
-<!-- TechStack -->
+ TechStack 
 ### :space_invader: Tech Stack
 
 <details>
@@ -129,7 +129,7 @@ I wanted to build my own learning model that would help defend against adversari
     <li><a href="https://circleci.com/">CircleCLI</a></li>
   </ul>
 </details>
-
+-->
 <!-- Features -->
 ### :dart: Features
 
@@ -137,30 +137,9 @@ I wanted to build my own learning model that would help defend against adversari
 - Feature 2
 - Feature 3
 
-<!-- Color Reference -->
-### :art: Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
-
-
-<!--
-<!-- Env Variables -->
-### :key: Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
--->
-<!-- Getting Started -->
+<!-- Getting Started 
 ## 	:toolbox: Getting Started
-
+-->
 <!-- Prerequisites
 ### :bangbang: Prerequisites
 -->
