@@ -2,11 +2,16 @@
 
 import tensorflow as tf
 import optuna
-from tensorflow.keras.datasets import mnist
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Flatten, Dense, Dropout
 from tensorflow.keras.optimizers import Adam, RMSprop
-from data_loader import load_mnist_data
+from functools import lru_cache
+
+@lru_cache(maxsize=1)
+def load_mnist_data():
+    (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
+    x_train, x_test = x_train / 255.0, x_test / 255.0
+    return (x_train, y_train), (x_test, y_test)
 
 def build_model(trial):
     model = Sequential()
@@ -48,7 +53,7 @@ def train_with_optuna():
     best_model = build_model(trial)
     (x_train, y_train), (x_test, y_test) = load_mnist_data()
     best_model.fit(x_train, y_train, epochs=5, verbose=1)
-    best_model.save('models/my_models.keras')
+    best_model.save('models/mnist_model_optuna.h5')
 
 if __name__ == '__main__':
     train_with_optuna()
