@@ -30,7 +30,7 @@ def generate_adversarial_examples(model):
     return x_test, x_test_adversarial, y_test
 
 def load_and_evaluate_model():
-    model = tf.keras.models.load_model('models/mnist_model_optuna.h5')
+    model = tf.keras.models.load_model('models/mnist_model.h5')
     (x_train, y_train), (x_test, y_test) = load_mnist_data()
 
     loss, acc = model.evaluate(x_test, y_test)
