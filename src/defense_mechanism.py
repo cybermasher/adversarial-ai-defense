@@ -12,7 +12,7 @@ def load_mnist_data():
 
 def adversarial_training():
     (x_train, y_train), (x_test, y_test) = load_mnist_data()
-    model = tf.keras.models.load_model('models/mnist_model_optuna.h5')
+    model = tf.keras.models.load_model('models/mnist_model.h5')
 
     perturbations = create_adversarial_pattern(model, x_train, y_train)
     epsilon = 0.1
