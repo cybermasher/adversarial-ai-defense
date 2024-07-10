@@ -53,7 +53,7 @@ def train_with_optuna():
     best_model = build_model(trial)
     (x_train, y_train), (x_test, y_test) = load_mnist_data()
     best_model.fit(x_train, y_train, epochs=5, verbose=1)
-    best_model.save('models/mnist_model_optuna.h5')
+    best_model.save('models/models/mnist_model.h5')
 
 if __name__ == '__main__':
     train_with_optuna()
