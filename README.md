@@ -260,7 +260,7 @@ Distributed under the GPL-3.0 license. See LICENSE.txt for more information.
 <!-- Contact -->
 ## :handshake: Contact
 <a href="https://github.com/cybermasher/adversarial-ai-defense">
-  <img src="images/cybermasher.jpg" alt="cybermasher avatar" width="125" height="125" />
+  <img src="assets/cybermasher.jpg" alt="cybermasher avatar" width="125" height="125" />
 </a>
 <br>
 Dustin Schmidt - [@dankpeace](https://twitter.com/dankpeace) - dschmidt2020[at]gmail[dot]com
