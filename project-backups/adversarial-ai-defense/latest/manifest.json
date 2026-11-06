@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "mode": "projects",
+  "created_at": "2026-11-06T21:53:02.462522+00:00",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 7894,
+      "sha256": "40f6f5c6f4a66455301329d489a9f9f871addb2601149bac1c0a8192e0658ded",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "contributing.md",
+      "bytes": 13556,
+      "sha256": "6376d78d0a689a6d92a17ff84972f9f442bc3ddf415750c2dbbeb0a664805060",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 65,
+      "sha256": "4fa2b07542e9c3458ac70b6a620457eaa87ed92fac64376bc230aa114d5ee2e0",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "notebooks/test",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "models/blank",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "assets/cyber-banner-image.jpg",
+      "bytes": 142772,
+      "sha256": "62a7958a7774b21dc76c3d1dd2c31dfbb2f0ea593746832d2729f9f2e434f2e4",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "data/test.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "src/adversarial_attack.py",
+      "bytes": 1300,
+      "sha256": "2b4e5161a24e9a8093ba3dc0481f67548adc1a8b064e69719c3bcf6541f86030",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "src/data_loader.py",
+      "bytes": 251,
+      "sha256": "ae7ad90832e9e0fb72e8dd176b58653c1f0fc5cf4ef0c79ac880a665ff236280",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "src/defense_mechanism.py",
+      "bytes": 979,
+      "sha256": "85724062516af8509b8563d63815bc85c9b5cc89eb924809b5f90021fa8d5dc2",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "src/train_model.py",
+      "bytes": 2017,
+      "sha256": "f60f7263e3d77e62ac686b9ef613dbd464f754c32130ec42eceeb5e5db1182f4",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "src/use_trained_model.py",
+      "bytes": 1939,
+      "sha256": "806d3fd66e1333749c99bdacd95c956ad3399abd7db7fbc19553248bddb55525",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "images/cybermasher.jpg",
+      "bytes": 7198,
+      "sha256": "789cbd7e22ec2fe9866251711c2c8d9329343b2ff626f7fdcc7c126364191f75",
+      "mode": 436,
+      "parts": []
+    }
+  ],
+  "excluded": [],
+  "excluded_directories": [
+    ".git"
+  ]
+}
